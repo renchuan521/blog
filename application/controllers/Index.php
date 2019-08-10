@@ -18,6 +18,7 @@ class IndexController extends BaseController {
     
     public function foo(){
         $var = "hello,world!";
+        return $var;
     }
 
     public function contactAction() {
