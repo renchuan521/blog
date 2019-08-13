@@ -14,7 +14,7 @@ define("YAF",1);
 define('STARTTIME', microtime(true));
 
 /**
- * yaf默认只支持application/library 目录下类的加载
+ * yaf默认只支持application/library  目录下类的加载
  * 并且不允许Yaf打头的第三方类出现
  * 这里注册一个__autoload顺序加载application 下所有文件夹下的类
  * Yaf 默认认为每个类都应该有下划线每个下划线代表一层目录
